@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: start;
+  gap: 20px;
   height: 100vh;
 }
 
@@ -12,8 +13,36 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.header {
+  height: 50px;
+  background-color: #033F63;
+  top: -1;
+  width: 100%;
+}
+
 .troll-meter {
-  font-size: 32px;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-flex;
+  text-align: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.troll-percentage {
+  line-height: 100%;
+  font-size: 148px;
+  font-weight: 700;
+  text-align: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.troll-phrase {
+  font-size: 64px;
+  font-weight: 700;
+  justify-content: center;
+  text-align: center;
   font-family: Arial, Helvetica, sans-serif;
 }
 
